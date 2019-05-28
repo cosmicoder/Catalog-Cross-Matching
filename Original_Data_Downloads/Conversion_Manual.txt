@@ -1,1 +1,10 @@
+How to convert the raw .tbl data to Excel CSV 
 
+1. Download the catalog from the links provided in the bibliography.
+2. The downloaded catalog is in .tbl format.
+3. Change the extension to .txt.
+4. Open the text document in word and manipulate so that the data fits in columns (Ex. by reducing text size and increasing margin size).
+5. Delete header information (as well as column headings). Save as a separate file.
+6. Now go to Excel and go to the data tab.
+7. Select the from Text/CSV option and import the .txt data file. Excel automatically groups the data in columns. If it doesn't then edit the imported data using delimiters.
+8. Once data is obtained in columns in excel, save the excel file in .CSV format. This file can now be used in Python in conjuction with NumPy arrays.
