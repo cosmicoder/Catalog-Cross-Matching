@@ -7,8 +7,8 @@ import math
 ofile = open('SPITZER_servs2_match4.txt', mode='w')
 
 # Loading csv data into program references
-spitzer = np.loadtxt('SPITZER_servs2_reduced.csv', delimiter=',')
-gmrt = np.loadtxt('GMRT_400MHz_catalog_reduced.csv', delimiter=',')
+spitzer = np.loadtxt('CSV_Files/SPITZER_servs2_reduced.csv', delimiter=',')
+gmrt = np.loadtxt('CSV_Files/GMRT_400MHz_catalog_reduced.csv', delimiter=',')
 
 # Linear Search Algorithm on NumPy Array
 count = 1
