@@ -4,7 +4,7 @@ import numpy as np
 import math
 
 # New file to store data
-ofile = open('CSV_Files/SPITZER_24_match4.txt', mode='w')
+ofile = open('SPITZER_24_match4.txt', mode='w')
 
 # Loading csv data into program references
 spitzer = np.loadtxt('CSV_Files/SPITZER_24_reduced.csv', delimiter=',')
