@@ -1,18 +1,18 @@
 import numpy as np
 
 # New file to store Master Catalog
-ofile = open('Master_Catalog.txt', mode='w')
+ofile = open('CSV_Files/Master_Catalog.txt', mode='w')
 
 # Opening all the catalogs to be merged
-gmrt = np.loadtxt('GMRT_400MHz_unq.csv', delimiter=',')
-galex = np.loadtxt('GALEX_unq_large.csv', delimiter=',')
-spz24 = np.loadtxt('SPITZER_24_unq.csv', delimiter=',')
-spz70 = np.loadtxt('SPITZER_70_unq.csv', delimiter=',')
-spz160 = np.loadtxt('SPITZER_160_unq.csv', delimiter=',')
-spz05 = np.loadtxt('SPITZER_s05_unq.csv', delimiter=',')
-servs1 = np.loadtxt('SPITZER_servs1_unq.csv', delimiter=',')
-servs2 = np.loadtxt('SPITZER_servs2_unq.csv', delimiter=',')
-servs12 = np.loadtxt('SPITZER_servs12_unq.csv', delimiter=',')
+gmrt = np.loadtxt('CSV_Files/GMRT_400MHz_unq.csv', delimiter=',')
+galex = np.loadtxt('CSV_Files/GALEX_unq_large.csv', delimiter=',')
+spz24 = np.loadtxt('CSV_Files/SPITZER_24_unq.csv', delimiter=',')
+spz70 = np.loadtxt('CSV_Files/SPITZER_70_unq.csv', delimiter=',')
+spz160 = np.loadtxt('CSV_Files/SPITZER_160_unq.csv', delimiter=',')
+spz05 = np.loadtxt('CSV_Files/SPITZER_s05_unq.csv', delimiter=',')
+servs1 = np.loadtxt('CSV_Files/SPITZER_servs1_unq.csv', delimiter=',')
+servs2 = np.loadtxt('CSV_Files/SPITZER_servs2_unq.csv', delimiter=',')
+servs12 = np.loadtxt('CSV_Files/SPITZER_servs12_unq.csv', delimiter=',')
 
 flag = 0
 
