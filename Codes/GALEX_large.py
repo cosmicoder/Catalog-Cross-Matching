@@ -7,8 +7,8 @@ import math
 ofile = open('GALEX_large_match.txt', mode='w')
 
 # Loading csv data into program references
-galex = np.loadtxt('Large_GALEX_code.csv', delimiter=',')
-gmrt = np.loadtxt('GMRT_400MHz_catalog_reduced.csv', delimiter=',')
+galex = np.loadtxt('CSV_Files/Large_GALEX_code.csv', delimiter=',')
+gmrt = np.loadtxt('CSV_Files/GMRT_400MHz_catalog_reduced.csv', delimiter=',')
 
 # Linear Search Algorithm on NumPy Array
 count = 1
