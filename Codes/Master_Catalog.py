@@ -1,7 +1,7 @@
 import numpy as np
 
 # New file to store Master Catalog
-ofile = open('CSV_Files/Master_Catalog.txt', mode='w')
+ofile = open('Master_Catalog.txt', mode='w')
 
 # Opening all the catalogs to be merged
 gmrt = np.loadtxt('CSV_Files/GMRT_400MHz_unq.csv', delimiter=',')
