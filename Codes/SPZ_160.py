@@ -4,11 +4,11 @@ import numpy as np
 import math
 
 # New file to store data
-ofile = open('SPITZER_160_match4.txt', mode='w')
+ofile = open('CSV_Files/SPITZER_160_match4.txt', mode='w')
 
 # Loading csv data into program references
-spitzer = np.loadtxt('SPITZER_160_reduced.csv', delimiter=',')
-gmrt = np.loadtxt('GMRT_400MHz_catalog_reduced.csv', delimiter=',')
+spitzer = np.loadtxt('CSV_Files/SPITZER_160_reduced.csv', delimiter=',')
+gmrt = np.loadtxt('CSV_Files/GMRT_400MHz_catalog_reduced.csv', delimiter=',')
 
 # Linear Search Algorithm on NumPy Array
 count = 1
